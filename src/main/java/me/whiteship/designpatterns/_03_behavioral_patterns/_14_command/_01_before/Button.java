@@ -10,7 +10,11 @@ public class Button {
     }
 
     public void press() {
-        light.off();
+        if (light.isOn()) {
+            light.off();
+        } else {
+            light.on();
+        }
     }
 
     public static void main(String[] args) {
