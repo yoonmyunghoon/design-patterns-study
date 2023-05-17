@@ -6,7 +6,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         SortingMachine machine = new SortingMachine();
-        machine.setEngine(new OldSortEngine());
+        machine.setEngine(new SortEngine());
 
         List<String> items = new ArrayList<>();
         items.add("CCC");

@@ -1,9 +1,9 @@
-package me.whiteship.designpatterns.review_20230518._06_adapter_marking._01_before;
+package me.whiteship.designpatterns.review_20230518._06_adapter_marking._02_after;
 
 import java.util.Collections;
 import java.util.List;
 
-public class OldSortEngine implements ISortEngine {
+public class SortEngine implements ISortEngine {
     private List<String> items;
 
     @Override
