@@ -2,10 +2,10 @@ package me.whiteship.designpatterns.review_20230518._06_adapter_marking._02_afte
 
 import java.util.List;
 
-public class B_SortEngineAdapter implements ISortEngine {
-    private B_SortEngine engine;
+public class NewSortEngineAdapter implements ISortEngine {
+    private NewSortEngine engine;
 
-    public B_SortEngineAdapter(B_SortEngine engine) {
+    public NewSortEngineAdapter(NewSortEngine engine) {
         this.engine = engine;
     }
 

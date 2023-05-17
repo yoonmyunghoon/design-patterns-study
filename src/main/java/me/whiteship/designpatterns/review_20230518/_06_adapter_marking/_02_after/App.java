@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         SortingMachine machine = new SortingMachine();
 //        machine.setEngine(new A_SortEngine());
-        machine.setEngine(new B_SortEngineAdapter(new B_SortEngine()));
+        machine.setEngine(new NewSortEngineAdapter(new NewSortEngine()));
 
         List<String> items = new ArrayList<>();
         items.add("CCC");
